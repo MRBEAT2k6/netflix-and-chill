@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #ff0000;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: none;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #ff0000;
+    font-family: "Sigmar", serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+}
+nav a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 800px;
+    padding:0 30px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.699);
+    font-family: "Sigmar", serif;
+    transition: .6s ease;
+}
+#H{
+  color: rgba(255, 0, 0, 0.717);
+}
+ #T{
+  color: rgba(0, 128, 0, 0.785);
+}
+#V{
+  color: rgba(0, 0, 255, 0.708);
+}
+
+#so3 {
+  color: rgba(238, 255, 55, 0.9);
+}
+nav a:hover{
+    transform: scale(1.4);
+    color: #1900ff;
+}
+.login{
+    display: flex;
+    margin-left: 10vh;
+    height: 45px;
+    width: 170px;
+    border-style: solid;
+    border-radius: 20px;                                            
+    border-color: none;
+    background-image: linear-gradient(90deg,#872504, #870000,#190a05);    
+    transition: all .85s ease;
+
+}
+.login a{
+    margin-top: 5px;
+    margin-left: 57px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Sigmar", serif;
+    font-weight: 1000;
+    font-style:initial;
+    color:lightgray;
+    transition: .9s ease;`  
+}
+.login span{
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Sigmar", serif;
+    font-weight: 1000;
+    font-style:initial;
+    color:lightgray;
+    transition: .9s ease;`
+}
+.login i{
+    color: white;
+    margin-top: 7px;
+    font-size: 25px;
+    float: left;
+    margin-left: 40px;
+}
+.login:hover{
+    transform: scale(1.1);*/
+}
+.login a:hover{
+    transform: scale(1.3);
+    color:#1900ff;
+}
+.show{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: -70px;
+}
+.show .list .item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.show .list .item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.show .list .item .content{
+    position: absolute;
+    top: 10%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    text-shadow: 0 0 15px rgba(0,0,0,0.598);
+}
+.content h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-wrap: nowrap;  
+}
+.details{
+    display: flex;
+    text-wrap: nowrap;
+    margin-bottom: -20px;
+}
+.details p{
+    border-right: 2px solid white;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00ff15;
+    padding: 0 10px;
+}
+.content h4{
+    max-width: 400px;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: bold;
+    color:#00e9e1e3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.show .button{
+    display: flex;
+}
+.download-btn{
+    width: 150px;
+    padding: 12px 0;
+    font-weight: bold;
+    border: none;
+    background-color: #ffcc00;
+    color: black;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.566);
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.trailer-btn{
+    width: 150px;
+    padding: 12px 0;
+    font-weight: bold;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.566);
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.button button:hover{
+    opacity: 0.7;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.621);
+}
+.videobox video{
+    width: 250px;
+    height: 140px;
+}
+.thumnail{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(211,211,211,0.146);
+    backdrop-filter: blur(10px);
+    border-top-left-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.626);
+}
+.thumnail .item{
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+}
+.thumnail .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    mix-blend-mode: lighten;
+}
+.thumnail .item .thunailcontent{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    right: 10px;
+
+}
+.thumnail .item .tittle{
+    margin-left: -15px;
+    margin-top: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: yellow;
+}
+/* chuyen thumb*/
+.arrows{
+    position: absolute;
+    top: 80%;
+    right: 42%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    gap:10px;
+    display: flex;
+    align-items: center;
+}
+.arrows button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(201, 201, 201, 0.776);
+    color: rgb(0, 0, 0, 0.749);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.arrows button:hover{
+    background-color: rgb(152, 16, 109);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.612);
+    transform: scale(1.5);
+}
+/*animation*/
+.show .list .item:nth-child(1){
+    z-index: 1;
+}
+/*content*/
+.show .list .item:nth-child(1) .content{
+    filter: blur(20px);
+    opacity: 0;
+    animation: contentapper 0.5s 1s linear 1 forwards;
+}
+@keyframes contentapper {
+    to{
+        filter: blur(0);
+        opacity: 1;
+    }    
+}
+/*ANIMATION*/
+.show.next .list .item:nth-child(1) img{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    bottom:50px;
+    left: 50%;
+    border-radius: 100%;
+    animation:  filmapper .5s linear 1 forwards;
+}
+@keyframes filmapper {
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+.show.next .thumnail{
+    animation: Nextfilm .5s linear 1 forwards;
+}
+@keyframes Nextfilm {
+    from{
+        transform: translateX(150px);
+    }
+}
+
+.show.prev .list .item:nth-child(2){
+    z-index: 200;
+}
+.show.prev .list .item:nth-child(2) img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: Previewfilm 0.5s linear 1 forwards;
+}
+@keyframes Previewfilm {
+    to{
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 50px;
+    }
+}
+.show.prev .list .item:nth-child(2) .content{
+    animation: Tittleapper 1.5s linear 1 forwards;
+}
+@keyframes  Tittleapper{
+    to{
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+.show.next .arrows button,
+.show.prev .arrows button{
+    pointer-events: none;
+}
+
+/*running*/
+.show .time{
+    position: absolute;
+    z-index: 999;
+    width: 0;
+    height: 5px;
+    background-color: #ff0040;
+    left: 0;
+    top: 0;
+}
+.show.next .time,
+.show.prev .time{
+    animation: RunningTime 2s linear 1 forwards;
+}
+@keyframes RunningTime {
+    from{width: 100%;}
+    to{width: 0%;}
+}
+
+@keyframes screen and (max-width:900px) {
+    .show .list .item .content{
+        padding:0;
+    }
+    
+    .show .list .item .content h1{
+        font-size: 50px;
+    }
+    .details p{
+        font-size: 17px;
+    }
+    .content h4{
+        margin: 10px 0;
+    }
+    nav{
+        display: none;
+    }
+    .videobox{
+        margin-top: 15px;
+    }
+    header{
+        padding: 0 10px;
+    }
+    .content{
+        top:10%;
+    }
+    .thumnail{
+        top:75%;
+    }
+    .arrows{
+        left: 15%;
+    }
+    .login{
+        margin-left: 10px;
+    }
+}
